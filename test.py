@@ -52,7 +52,7 @@ def main():
    # connection_string = f'DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
 
     # Create a connection to Azure SQL Database using the connection string
-    conn = create_connection("connection_string")  
+    conn = create_connection("connection_string")   
 
     # Create the users table if it does not exist
     create_table(conn)
